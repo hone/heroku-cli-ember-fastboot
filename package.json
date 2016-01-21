@@ -1,0 +1,31 @@
+{
+  "name": "heroku-cli-ember-fastboot",
+  "version": "0.0.1",
+  "description": "static app generator",
+  "main": "index.js",
+  "author": [
+    "Terence Lee @hone02",
+    "Tom Dale @tomdale"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hone/heroku-cli-ember-fastboot"
+  },
+  "bugs": {
+    "url": "https://github.com/heroku/heroku-cli-ember-fastboot/issues"
+  },
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "0.14.4",
+    "bluebird": "^2.9.34",
+    "heroku-cli-util": "5.2.1",
+    "mktmpdir": "0.1.1",
+    "mz": "^2.0.0",
+    "node-fs-extra": "^0.8.1",
+    "request": "2.58.0",
+    "request-promise": "^0.4.2"
+  }
+}
